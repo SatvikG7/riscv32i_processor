@@ -1,0 +1,62 @@
+// File: main_decoder.sv
+module main_decoder (
+    input  logic [6:0] opcode,
+    output logic       RegWrite,
+    output logic [1:0] ImmSrc,
+    output logic       ALUSrc,
+    output logic       MemWrite,
+    output logic       ResultSrc,
+    output logic       Branch,
+    output logic [1:0] ALUOp
+);
+
+    always_comb begin
+        // Default values
+        RegWrite  = 0;
+        ImmSrc    = 2'b00;
+        ALUSrc    = 0;
+        MemWrite  = 0;
+        ResultSrc = 0;
+        Branch    = 0;
+        ALUOp     = 2'b00;
+
+        case (opcode)
+            7'b0110011: begin // R-type
+                RegWrite  = 1;
+                ALUSrc    = 0;
+                ResultSrc = 0;
+                ALUOp     = 2'b10;
+            end
+            7'b0010011: begin // I-type (ADDI, etc.)
+                RegWrite  = 1;
+                ALUSrc    = 1;
+                ImmSrc    = 2'b00;
+                ResultSrc = 0;
+                ALUOp     = 2'b00;
+            end
+            7'b0000011: begin // Load (LW)
+                RegWrite  = 1;
+                ALUSrc    = 1;
+                ImmSrc    = 2'b00;
+                ResultSrc = 1;
+                ALUOp     = 2'b00;
+            end
+            7'b0100011: begin // Store (SW)
+                ALUSrc    = 1;
+                ImmSrc    = 2'b01;
+                MemWrite  = 1;
+                ALUOp     = 2'b00;
+            end
+            7'b1100011: begin // Branch (BEQ)
+                ALUSrc    = 0;
+                ImmSrc    = 2'b10;
+                Branch    = 1;
+                ALUOp     = 2'b01;
+            end
+            default: begin
+                // Keep defaults
+            end
+        endcase
+    end
+
+endmodule

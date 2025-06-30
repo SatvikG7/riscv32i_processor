@@ -1,0 +1,285 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/simulation/modelsim
+valu
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1751224648
+!i10b 1
+!s100 H5FLDMlK_L5_IMRVa_^k80
+I_DLY?NbhPTSbEliVCLdRN1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 alu_sv_unit
+S1
+R0
+w1751221809
+8C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute/alu.sv
+FC:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute/alu.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1751224648.000000
+!s107 C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute|C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute/alu.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute
+Z8 tCvgOpt 0
+valu_decoder
+R1
+Z9 !s110 1751224647
+!i10b 1
+!s100 iOl6DeXo;o4:ijO]bU9co0
+I]B`in847V4B:l1^E`GhAb3
+R3
+!s105 alu_decoder_cu_sv_unit
+S1
+R0
+w1751223717
+8C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode/alu_decoder_cu.sv
+FC:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode/alu_decoder_cu.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1751224647.000000
+!s107 C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode/alu_decoder_cu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode|C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode/alu_decoder_cu.sv|
+!i113 1
+R6
+Z11 !s92 -sv -work work +incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode
+R8
+vdata_mem
+R1
+Z12 !s110 1751224649
+!i10b 1
+!s100 Q:T8M0?<Mfbkj=bCCW_eb0
+Imj<g5HblL`dYfW;d>K<I42
+R3
+!s105 data_mem_sv_unit
+S1
+R0
+w1751222279
+8C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/mem/data_mem.sv
+FC:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/mem/data_mem.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z13 !s108 1751224649.000000
+!s107 C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/mem/data_mem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/mem|C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/mem/data_mem.sv|
+!i113 1
+R6
+!s92 -sv -work work +incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/mem
+R8
+vdecode
+R1
+R9
+!i10b 1
+!s100 EoViKQiZQMlAkd7k?14Ca0
+IDWW[gdG16hjEQ8oF=jS`m3
+R3
+!s105 decode_sv_unit
+S1
+R0
+w1751216644
+8C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode/decode.sv
+FC:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode/decode.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode/decode.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode|C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode/decode.sv|
+!i113 1
+R6
+R11
+R8
+vimm_gen
+R1
+R2
+!i10b 1
+!s100 n[4_Sbi6aBzQERd4?T2>o1
+I8a62>njbMHUd4N:3Z3B8U2
+R3
+!s105 imm_gen_sv_unit
+S1
+R0
+w1751220975
+8C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute/imm_gen.sv
+FC:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute/imm_gen.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute/imm_gen.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute|C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute/imm_gen.sv|
+!i113 1
+R6
+R7
+R8
+vinstr_mem
+R1
+R12
+!i10b 1
+!s100 ^A@9hH_FQj^]W0Ra9nKZF1
+IeoO63N]VD4Z=TG18:zIK=3
+R3
+!s105 instr_mem_sv_unit
+S1
+R0
+w1751224322
+8C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/fetch/instr_mem.sv
+FC:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/fetch/instr_mem.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/fetch/instr_mem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/fetch|C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/fetch/instr_mem.sv|
+!i113 1
+R6
+!s92 -sv -work work +incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/fetch
+R8
+vmain_decoder
+R1
+R2
+!i10b 1
+!s100 PM;<4Bn@;8nM5_@7j[dTh0
+IS?24W_VLQGHh[0O=OQVld1
+R3
+!s105 main_decoder_cu_sv_unit
+S1
+R0
+w1751223585
+8C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode/main_decoder_cu.sv
+FC:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode/main_decoder_cu.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode/main_decoder_cu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode|C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/decode/main_decoder_cu.sv|
+!i113 1
+R6
+R11
+R8
+vreg_file
+R1
+R9
+!i10b 1
+!s100 8:>ESm@mKBN_RhPalh^bD1
+IEkn@8;Kz>@fQ<A=e;M73N3
+R3
+!s105 reg_file_sv_unit
+S1
+R0
+w1751221380
+8C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute/reg_file.sv
+FC:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute/reg_file.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute/reg_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute|C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/execute/reg_file.sv|
+!i113 1
+R6
+R7
+R8
+vriscv_top
+R1
+R12
+!i10b 1
+!s100 gkk[US2ChM9_9<zXUGGQm1
+I;X9OF04^DkYT8KRSk2d[83
+R3
+!s105 riscv_top_sv_unit
+S1
+R0
+w1751223995
+8C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/top/riscv_top.sv
+FC:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/top/riscv_top.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/top/riscv_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/top|C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/top/riscv_top.sv|
+!i113 1
+R6
+!s92 -sv -work work +incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/top
+R8
+vtb_riscv_top
+R1
+R12
+!i10b 1
+!s100 ?g5dQNl]8E9PE69IN:nfE2
+ITK[zDDOI[:i0U?iS8]G[>2
+R3
+!s105 tb_riscv_top_sv_unit
+S1
+R0
+w1751222738
+8C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/tb/tb_riscv_top.sv
+FC:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/tb/tb_riscv_top.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/tb/tb_riscv_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/tb|C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/tb/tb_riscv_top.sv|
+!i113 1
+R6
+!s92 -sv -work work +incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/tb
+R8
+vwb
+R1
+R2
+!i10b 1
+!s100 ?LhHgZmPVL1oz7zXh`5KV0
+I>_I]GN;M6HXhz15elA?m43
+R3
+!s105 wb_sv_unit
+S1
+R0
+w1751222465
+8C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/wb/wb.sv
+FC:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/wb/wb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/wb/wb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/wb|C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/wb/wb.sv|
+!i113 1
+R6
+!s92 -sv -work work +incdir+C:/Users/satvi/Code/ENTC/Verilog/riscv32i_processor/src/wb
+R8
