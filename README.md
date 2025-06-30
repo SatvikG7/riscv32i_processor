@@ -5,7 +5,7 @@ A 32-bit RISC-V Processor designed using SystemVerilog based on the **RV32I Inst
 ---
 
 ## 📦 Project Structure
-
+```
 riscv32i_processor/
 ├── src/ # RTL Design Sources
 │ ├── top/ # Top-level integration module
@@ -16,12 +16,7 @@ riscv32i_processor/
 │ └── wb/ # Write-Back Logic
 │
 ├── tb/ # Testbenches
-│
-├── docs/ # Documentation and design notes
-│
-└── quartus_project/ # Intel Quartus project files
-
-
+```
 ---
 
 ## 🚀 Features
