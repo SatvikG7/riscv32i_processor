@@ -96,8 +96,7 @@ riscv32i_processor/
 ## 📝 Author
 
 - **[Satvik Gaikwad]**  
-- Student, Electronics & Telecommunication  
-- Project completed as part of academic coursework  
+- Student, Electronics & Telecommunication
 
 ---
 
